@@ -6,8 +6,8 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>
-  	<servlet-name>teluske</servlet-name>
-  	<servlet-class>org.springfraework.web.servlet.DispatcherServlet</servlet-class>
+  	<servlet-name>telusko</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>telusko</servlet-name>
