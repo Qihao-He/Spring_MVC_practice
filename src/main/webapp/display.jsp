@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	A new page, Im here.
+	Result is: <%= request.getAttribute("result") %>>
 </body>
 </html>
