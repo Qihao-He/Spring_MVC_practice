@@ -11,10 +11,8 @@ import com.telusko.service.AddService;
 
 @Controller
 public class AddController {
-//	@RequestMapping(path = "/add", method = RequestMethod.GET)
 	@RequestMapping("/add")
 	public ModelAndView add(HttpServletRequest request, HttpServletResponse response) {
-//		System.out.println("add controller working");
 		int i = Integer.parseInt(request.getParameter("t1"));
 		int j = Integer.parseInt(request.getParameter("t2"));
 		
@@ -22,7 +20,7 @@ public class AddController {
 		int sum = as.add(i, j);
 		
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("display.jsp");
+		mv.setViewName("display");
 		mv.addObject("result", sum);
 		return mv;
 	}
